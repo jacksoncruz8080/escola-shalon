@@ -1,0 +1,5 @@
+{
+  "name": "Escola Presbiteriana Shalon - Portal do Aluno",
+  "description": "Plataforma institucional e portal de consulta de boletos para a Escola Presbiteriana Shalon, com integração direta à API do Asaas.",
+  "requestFramePermissions": []
+}
