@@ -92,6 +92,10 @@ app.post('/api/boletos', async (req, res) => {
   }
 });
 
+app.get('/api/ping', async (req, res) => {
+  return res.status(200).json({ status: 'ok' });
+});
+
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`\n🚀 Servidor Shalon Rodando!`);
